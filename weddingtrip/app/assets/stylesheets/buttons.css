@@ -1,0 +1,34 @@
+/* CTA Buttons */
+.btn-cta {
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-custom {
+    background-color: #f5f405; /* Bright yellow */
+    border-color: #f5f405;
+    color: #000000; /* Black text for contrast */
+}
+
+.btn-primary-custom:hover {
+    background-color: #e2e105; /* Slightly darker yellow */
+    border-color: #e2e105;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-outline-light {
+    border-width: 2px;
+    color: #ffffff;
+    border-color: #f5f405; /* Bright yellow border */
+}
+
+.btn-outline-light:hover {
+    background-color: #f5f405;
+    color: #000000;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

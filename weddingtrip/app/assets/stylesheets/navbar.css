@@ -1,0 +1,65 @@
+/* Custom Navbar */
+.navbar {
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar.scrolled {
+    background-color: #000000;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo and brand name styling */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #f5f405 !important; /* Bright yellow */
+    transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand span {
+    margin-left: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Add a subtle animation on hover */
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.navbar-brand:hover span {
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f5f405; /* Bright yellow */
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}

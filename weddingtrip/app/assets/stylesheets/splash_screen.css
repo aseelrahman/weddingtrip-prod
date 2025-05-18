@@ -1,0 +1,99 @@
+/* Splash Screen Styles */
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease-in-out;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.logo-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+    animation: logoTwice 2.5s ease-in-out forwards;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+/* Logo appears twice animation */
+@keyframes logoTwice {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    90% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+}
+
+/* Adding webkit version for Safari/iOS support */
+@-webkit-keyframes logoTwice {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        -webkit-transform: scale(0.9);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    90% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+    }
+}

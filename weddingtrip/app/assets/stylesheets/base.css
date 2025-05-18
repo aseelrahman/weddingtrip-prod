@@ -1,0 +1,22 @@
+/* Base Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body.loaded {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hidden {
+    display: none;
+}

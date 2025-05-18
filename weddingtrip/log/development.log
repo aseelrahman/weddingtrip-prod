@@ -1,0 +1,460 @@
+Started GET "/" for 108.6.113.229 at 2025-05-18 16:48:40 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY) /*application='Weddingtrip'*/[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='Weddingtrip'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Weddingtrip'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.3.4/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.3.4/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 56ms (Views: 10.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/" for 108.6.113.229 at 2025-05-18 16:54:24 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.3.4/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.3.4/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 18ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:00:28 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 46.1ms | GC: 23.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | GC: 23.3ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 23.3ms)
+
+
+  
+ActionView::Template::Error (The asset 'logo.png' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'logo.png' was not found in the load path.):
+    1: <!-- Splash Screen -->
+    2: <div id="splash-screen">
+    3:   <div class="logo-container">
+    4:     <img src="<%= asset_path('logo.png') %>" alt="Wedding Trip" class="logo">
+    5:   </div>
+    6: </div>
+    7: 
+  
+app/views/home/index.html.erb:4
+
+Information for cause: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.):
+  
+app/views/home/index.html.erb:4
+Started GET "/favicon.ico" for 108.6.113.229 at 2025-05-18 17:00:29 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:04:19 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 7.8ms)
+
+
+  
+ActionView::Template::Error (The asset 'logo.png' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'logo.png' was not found in the load path.):
+    1: <!-- Splash Screen -->
+    2: <div id="splash-screen">
+    3:   <div class="logo-container">
+    4:     <img src="<%= asset_path('logo.png') %>" alt="Wedding Trip" class="logo">
+    5:   </div>
+    6: </div>
+    7: 
+  
+app/views/home/index.html.erb:4
+
+Information for cause: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.):
+  
+app/views/home/index.html.erb:4
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:07:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.6ms)
+
+
+  
+ActionView::Template::Error (The asset 'logo.png' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'logo.png' was not found in the load path.):
+    1: <!-- Splash Screen -->
+    2: <div id="splash-screen">
+    3:   <div class="logo-container">
+    4:     <img src="<%= asset_path('logo.png') %>" alt="Wedding Trip" class="logo">
+    5:   </div>
+    6: </div>
+    7: 
+  
+app/views/home/index.html.erb:4
+
+Information for cause: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.):
+  
+app/views/home/index.html.erb:4
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:08:55 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.2ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+  
+ActionView::Template::Error (The asset 'logo.png' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'logo.png' was not found in the load path.):
+    1: <!-- Splash Screen -->
+    2: <div id="splash-screen">
+    3:   <div class="logo-container">
+    4:     <img src="<%= asset_path('logo.png') %>" alt="Wedding Trip" class="logo">
+    5:   </div>
+    6: </div>
+    7: 
+  
+app/views/home/index.html.erb:4
+
+Information for cause: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.):
+  
+app/views/home/index.html.erb:4
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:12:49 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Weddingtrip'*/[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 25.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset 'logo.png' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'logo.png' was not found in the load path.):
+    1: <!-- Splash Screen -->
+    2: <div id="splash-screen">
+    3:   <div class="logo-container">
+    4:     <img src="<%= asset_path('logo.png') %>" alt="Wedding Trip" class="logo">
+    5:   </div>
+    6: </div>
+    7: 
+  
+app/views/home/index.html.erb:4
+
+Information for cause: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.):
+  
+app/views/home/index.html.erb:4
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:13:32 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset 'logo.png' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'logo.png' was not found in the load path.):
+    1: <!-- Splash Screen -->
+    2: <div id="splash-screen">
+    3:   <div class="logo-container">
+    4:     <img src="<%= asset_path('logo.png') %>" alt="Wedding Trip" class="logo">
+    5:   </div>
+    6: </div>
+    7: 
+  
+app/views/home/index.html.erb:4
+
+Information for cause: Propshaft::MissingAssetError (The asset 'logo.png' was not found in the load path.):
+  
+app/views/home/index.html.erb:4
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:14:44 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Weddingtrip'*/[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 341.5ms | GC: 96.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 359.3ms | GC: 98.2ms)
+Completed 500 Internal Server Error in 504ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 139.1ms)
+
+
+  
+ActionView::Template::Error (The asset 'buttons.css' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'buttons.css' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'buttons.css' was not found in the load path.):
+    33: 
+    34:     <%# Includes all stylesheet files in app/assets/stylesheets %>
+    35:     <%= stylesheet_link_tag :base, "data-turbo-track": "reload" %>
+    36:     <%= stylesheet_link_tag :buttons, "data-turbo-track": "reload" %>
+    37:     <%= stylesheet_link_tag :footer, "data-turbo-track": "reload" %>
+    38:     <%= stylesheet_link_tag :hero, "data-turbo-track": "reload" %>
+    39:     <%= stylesheet_link_tag :navbar, "data-turbo-track": "reload" %>
+  
+app/views/layouts/application.html.erb:36
+
+Information for cause: Propshaft::MissingAssetError (The asset 'buttons.css' was not found in the load path.):
+  
+app/views/layouts/application.html.erb:36
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:16:35 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset 'buttons.css' was not found in the load path.)
+Caused by: Propshaft::MissingAssetError (The asset 'buttons.css' was not found in the load path.)
+
+Information for: ActionView::Template::Error (The asset 'buttons.css' was not found in the load path.):
+    33: 
+    34:     <%# Includes all stylesheet files in app/assets/stylesheets %>
+    35:     <%= stylesheet_link_tag :base, "data-turbo-track": "reload" %>
+    36:     <%= stylesheet_link_tag :buttons, "data-turbo-track": "reload" %>
+    37:     <%= stylesheet_link_tag :footer, "data-turbo-track": "reload" %>
+    38:     <%= stylesheet_link_tag :hero, "data-turbo-track": "reload" %>
+    39:     <%= stylesheet_link_tag :navbar, "data-turbo-track": "reload" %>
+  
+app/views/layouts/application.html.erb:36
+
+Information for cause: Propshaft::MissingAssetError (The asset 'buttons.css' was not found in the load path.):
+  
+app/views/layouts/application.html.erb:36
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:16:45 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Weddingtrip'*/[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 358.3ms | GC: 94.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 400.8ms | GC: 94.4ms)
+Completed 500 Internal Server Error in 570ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 162.2ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/workspaces/weddingtrip-prod/weddingtrip/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/turbo-rails-2.0.13/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actiontext-8.0.2/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actionmailbox-8.0.2/app/views"
+)
+Caused by: ActionView::MissingTemplate (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/workspaces/weddingtrip-prod/weddingtrip/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/turbo-rails-2.0.13/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actiontext-8.0.2/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actionmailbox-8.0.2/app/views"
+)
+
+Information for: ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/workspaces/weddingtrip-prod/weddingtrip/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/turbo-rails-2.0.13/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actiontext-8.0.2/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actionmailbox-8.0.2/app/views"
+):
+    46:   </head>
+    47: 
+    48:   <body>
+    49:     <%= render 'shared/navbar' %>
+    50: 
+    51:     <%= yield %>
+    52: 
+  
+app/views/layouts/application.html.erb:49
+
+Information for cause: ActionView::MissingTemplate (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/workspaces/weddingtrip-prod/weddingtrip/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/turbo-rails-2.0.13/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actiontext-8.0.2/app/views"
+  * "/usr/local/rvm/gems/ruby-3.3.4/gems/actionmailbox-8.0.2/app/views"
+):
+  
+app/views/layouts/application.html.erb:49
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:19:05 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Weddingtrip'*/[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 388.9ms | GC: 123.5ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 422.6ms | GC: 126.3ms)
+Completed 200 OK in 564ms (Views: 441.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 184.7ms)
+
+
+Started GET "/assets/splash_screen-5b2a45cd.css" for 108.6.113.229 at 2025-05-18 17:19:06 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/logo-c0d42022.png" for 108.6.113.229 at 2025-05-18 17:19:07 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/wedding_site-e3e6bcb6.js" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/base-e83700dc.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/turbo.min-1262d735.js" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/stimulus.min-4b1e420e.js" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/word_animation-77fd9a36.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/application-f504a95b.js" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/buttons-dfab44d9.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/footer-9d9eb8e0.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/application-03e2de8e.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/hero-52681e69.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/base.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/packages.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/splash_screen.css" for 108.6.113.229 at 2025-05-18 17:19:08 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/navbar-7282306f.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/controllers/index-ee64e1f1.js" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/packages-d0ce3b5d.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/controllers/application-3affb389.js" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/responsive-d5265620.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/bootstrap" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/wedding_site" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/buttons.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/footer.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/word_animations.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/responsive.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Started GET "/assets/navbar.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/hero.css" for 108.6.113.229 at 2025-05-18 17:19:09 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/background_img/img_bg_01-ca78e4bf.jpg" for 108.6.113.229 at 2025-05-18 17:19:10 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/background_img/img_bg_03-ea6d8a20.JPG" for 108.6.113.229 at 2025-05-18 17:19:10 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/background_img/img_bg_04-a7fcaa0d.JPG" for 108.6.113.229 at 2025-05-18 17:19:10 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/background_img/img_bg_02-29a804f1.JPG" for 108.6.113.229 at 2025-05-18 17:19:10 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/background_img/img_bg_05-8d74b535.JPG" for 108.6.113.229 at 2025-05-18 17:19:11 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/favicon_io/favicon-a939e1ad.ico" for 108.6.113.229 at 2025-05-18 17:19:16 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/packages" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PackagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering packages/index.html.erb within layouts/application
+  Rendered packages/index.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | GC: 1.0ms)
+Completed 200 OK in 63ms (Views: 25.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/assets/packages.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/base.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/bootstrap" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/buttons.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/navbar.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/hero.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/footer.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/wedding_site" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/splash_screen.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/word_animations.css" for 108.6.113.229 at 2025-05-18 17:19:17 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/responsive.css" for 108.6.113.229 at 2025-05-18 17:19:18 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/" for 108.6.113.229 at 2025-05-18 17:19:21 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | GC: 10.2ms)
+Completed 200 OK in 61ms (Views: 21.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 12.9ms)
+
+
+Started GET "/assets/splash_screen.css" for 108.6.113.229 at 2025-05-18 17:19:21 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/hero.css" for 108.6.113.229 at 2025-05-18 17:19:21 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/buttons.css" for 108.6.113.229 at 2025-05-18 17:19:21 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/navbar.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Started GET "/assets/packages.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/wedding_site" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/base.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/bootstrap" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/word_animations.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/responsive.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/footer.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= content_for(:title) || "Weddingtrip" %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= yield :head %>
+
+    <%# Enable PWA manifest for installable apps (make sure to enable in config/routes.rb too!) %>
+    <%#= tag.link rel: "manifest", href: pwa_manifest_path(format: :json) %>
+
+    <!-- Favicon configuration -->
+    <%= favicon_link_tag asset_path('favicon_io/favicon.ico') %>
+    <%= favicon_link_tag asset_path('favicon_io/apple-touch-icon.png'), rel: 'apple-touch-icon' %>
+    <%= favicon_link_tag asset_path('favicon_io/android-chrome-192x192.png'), rel: 'icon', type: 'image/png', sizes: '192x192' %>
+    <%= favicon_link_tag asset_path('favicon_io/android-chrome-512x512.png'), rel: 'icon', type: 'image/png', sizes: '512x512' %>
+    <%= favicon_link_tag asset_path('favicon_io/favicon-32x32.png'), rel: 'icon', type: 'image/png', sizes: '32x32' %>
+    <%= favicon_link_tag asset_path('favicon_io/favicon-16x16.png'), rel: 'icon', type: 'image/png', sizes: '16x16' %>
+    <link rel="manifest" href="<%= asset_path('favicon_io/site.webmanifest') %>">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+
+    <%# Includes all stylesheet files in app/assets/stylesheets %>
+    <%= stylesheet_link_tag :base, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :buttons, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :footer, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :hero, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :navbar, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :packages, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :responsive, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :splash_screen, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :word_animation, "data-turbo-track": "reload" %>
+
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <%= render 'shared/navbar' %>
+
+    <%= yield %>
+
+    <%= render 'shared/footer' %>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="<%= asset_path 'wedding_site.js' %>"></script>
+    
+  </body>
+</html>

@@ -16,6 +16,6 @@ test:
 # Simplified production configuration using SQLite temporarily
 production:
   adapter: sqlite3
-  database: storage/production.sqlite3
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: ":memory:"
+  pool: 5
   timeout: 5000

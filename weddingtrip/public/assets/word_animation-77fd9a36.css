@@ -1,0 +1,29 @@
+/* Word Animation - Right to Left Fade */
+.changing-word {
+    display: inline-block;
+    color: #f5f405; /* Yellow color for the text */
+    font-weight: 700;
+    min-width: 120px; /* Adjust based on longest word to prevent layout shifts */
+    text-align: center;
+    position: relative;
+    animation: fadeRightLeft 3s ease-in-out;
+}
+
+@keyframes fadeRightLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    15% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    85% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+}

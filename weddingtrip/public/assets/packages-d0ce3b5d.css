@@ -1,0 +1,67 @@
+/* Packages Section */
+.packages {
+    padding: 5rem 0;
+    background-color: #ffffff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.section-title h2:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #f5f405; /* Bright yellow */
+    bottom: -10px;
+    left: 25%;
+}
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-color: #f5f405; /* Bright yellow */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f5f405; /* Bright yellow */
+    margin-bottom: 1rem;
+}

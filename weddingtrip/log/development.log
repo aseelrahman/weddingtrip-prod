@@ -458,3 +458,38 @@ Started GET "/assets/responsive.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0
 Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
 Started GET "/assets/footer.css" for 108.6.113.229 at 2025-05-18 17:19:22 +0000
 Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/" for 108.6.113.229 at 2025-05-18 18:54:06 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Weddingtrip'*/[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4661.1ms | GC: 72.9ms)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | GC: 0.0ms)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4735.4ms | GC: 73.0ms)
+Completed 200 OK in 4900ms (Views: 4747.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 115.0ms)
+
+
+Started GET "/assets/buttons.css" for 108.6.113.229 at 2025-05-18 18:54:12 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/bootstrap" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/footer.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/word_animations.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/hero.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/navbar.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/base.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/splash_screen.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/wedding_site" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/responsive.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/packages.css" for 108.6.113.229 at 2025-05-18 18:54:13 +0000
+Cannot render console from 108.6.113.229! Allowed networks: 127.0.0.0/127.255.255.255, ::1

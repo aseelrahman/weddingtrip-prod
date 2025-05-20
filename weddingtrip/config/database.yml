@@ -13,9 +13,12 @@ test:
   <<: *default
   database: storage/test.sqlite3
 
-# Simplified production configuration using SQLite temporarily
 production:
-  adapter: sqlite3
-  database: ":memory:"
-  pool: 5
-  timeout: 5000
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: <%= ENV['RDS_DB_NAME'] %>
+  username: <%= ENV['RDS_USERNAME'] %>
+  password: <%= ENV['RDS_PASSWORD'] %>
+  host: <%= ENV['RDS_HOSTNAME'] %>
+  port: <%= ENV['RDS_PORT'] %>
